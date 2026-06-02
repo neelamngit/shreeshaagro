@@ -172,7 +172,7 @@ export function Products() {
                 key={product.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
               >
-                <div className="relative h-80 overflow-hidden bg-gray-100 p-4">
+                <div className={`relative h-80 overflow-hidden bg-gray-100 ${product.id === 2 ? 'pt-0 px-4 pb-4' : 'p-4'}`}>
                   <ImageWithFallback
                     src={product.image}
                     alt={product.name}
