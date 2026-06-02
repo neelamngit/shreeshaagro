@@ -15,7 +15,7 @@ export function Products() {
       image:
         "https://www.vsttractors.com/wp-content/uploads/2025/01/DSC00718.png",
       description:
-        "VST SHAKTI 165 DI ES Power Tiller with MDR technology is a general purpose, riding type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. VST power tillers are designed to efficiently operate in both wet and dry fields. Designed for heavy duty operations, VST power tillers are equipped with powerful and reliable engines with robust transmission. ",
+        "VST SHAKTI 165 DI ES Power Tiller with MDR technology is a general purpose, riding type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. VST power tillers are designed to efficiently operate in both wet and dry fields. Designed for heavy duty operations, VST power tillers are equipped with powerful and reliable engines with robust transmission. ",
       features: [
         "Starting system - Hand Cranking (Manual) & Self start (Electric)",
         "Wider rotary (750 mm)",
@@ -30,7 +30,7 @@ export function Products() {
       name: "VST SHAKTI 130 DI-S Power Tiller",
       category: "machines",
       image:
-        "https://www.vsttractors.com/wp-content/uploads/2025/01/226LD.png",
+        `${import.meta.env.BASE_URL}PowerTiller130DI.png`,
       description:
         "VST SHAKTI 130 DI-S Power Tiller is a general purpose, Walk Behind type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. ",
       features: [
@@ -50,7 +50,7 @@ export function Products() {
       image:
         "https://www.vsttractors.com/wp-content/uploads/2025/01/16.png",
       description:
-        " In different stages of farming, harvesting plays a very important role, demanding more labor and cost. The VST Reaper addresses this challenge by assisting farmers in saving both labor and cost. This machine has large and wide tires to balance on different terrains and uneven surfaces. The VST Multi-Crop Reaper is an innovative machine suited for small and marginal farmers growing different crops. This reaper efficiently works in cutting and harvesting various crops like soybean, bengal gram, paddy, wheat, and ragi, etc. ",
+        " In different stages of farming, harvesting plays a very important role, demanding more labor and cost. The VST Reaper addresses this challenge by assisting farmers in saving both labor and cost. This machine has large and wide tires to balance on different terrains and uneven surfaces. The VST Multi-Crop Reaper is an innovative machine suited for small and marginal farmers growing different crops. This reaper efficiently works in cutting and harvesting various crops like soybean, bengal gram, paddy, wheat, and ragi, etc. ",
       features: [
         "Saves labour and cost",
         "Operates on different terrains and uneven surfaces",
@@ -64,7 +64,7 @@ export function Products() {
       image:
         "https://www.vsttractors.com/wp-content/uploads/2025/01/226LD.png",
       description:
-        "VST brush cutters come in handy when ride-on lawn mowers can’t reach smaller portions in the garden. De-weeding around trees and near borders is made very easy and effective with VST brush cutters.",
+        "VST brush cutters come in handy when ride-on lawn mowers can't reach smaller portions in the garden. De-weeding around trees and near borders is made very easy and effective with VST brush cutters.",
       features: [
         "Light weight",
         "Easy Operation",
@@ -78,7 +78,7 @@ export function Products() {
       image:
         "https://www.vsttractors.com/wp-content/uploads/2025/01/FT50.png",
       description:
-        "These weeders find significant utility in inter-cultivation, step-cultivation, ploughing, and de-weeding. They are suitable for various applications, including vegetable farming, horticulture, plantation crops, etc. ",
+        "These weeders find significant utility in inter-cultivation, step-cultivation, ploughing, and de-weeding. They are suitable for various applications, including vegetable farming, horticulture, plantation crops, etc. ",
       features: [
         "Fuel efficiency",
         "Lightweight design",
