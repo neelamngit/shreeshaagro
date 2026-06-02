@@ -44,6 +44,20 @@ export function Products() {
       ],
     },
     {
+      id: 3,
+      name: "Power Reapers",
+      category: "machines",
+      image:
+        "https://www.vsttractors.com/wp-content/uploads/2025/01/16.png",
+      description:
+        " In different stages of farming, harvesting plays a very important role, demanding more labor and cost. The VST Reaper addresses this challenge by assisting farmers in saving both labor and cost. This machine has large and wide tires to balance on different terrains and uneven surfaces. The VST Multi-Crop Reaper is an innovative machine suited for small and marginal farmers growing different crops. This reaper efficiently works in cutting and harvesting various crops like soybean, bengal gram, paddy, wheat, and ragi, etc. ",
+      features: [
+        "Saves labour and cost",
+        "Operates on different terrains and uneven surfaces",
+        
+      ],
+    },
+    {
       id: 4,
       name: "VST Brush Cutter",
       category: "machines",
@@ -71,20 +85,7 @@ export function Products() {
         "Ease of operation",
       ],
     },
-{
-      id: 3,
-      name: "Power Reapers",
-      category: "machines",
-      image:
-        "https://www.vsttractors.com/wp-content/uploads/2025/01/16.png",
-      description:
-        " In different stages of farming, harvesting plays a very important role, demanding more labor and cost. The VST Reaper addresses this challenge by assisting farmers in saving both labor and cost. This machine has large and wide tires to balance on different terrains and uneven surfaces. The VST Multi-Crop Reaper is an innovative machine suited for small and marginal farmers growing different crops. This reaper efficiently works in cutting and harvesting various crops like soybean, bengal gram, paddy, wheat, and ragi, etc. ",
-      features: [
-        "Saves labour and cost",
-        "Operates on different terrains and uneven surfaces",
-        
-      ],
-    },
+
     {
       id: 6,
       name: "Sprayer",
