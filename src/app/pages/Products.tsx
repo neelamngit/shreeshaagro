@@ -44,7 +44,7 @@ export function Products() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       name: "VST Brush Cutter",
       category: "machines",
       image:
@@ -58,7 +58,7 @@ export function Products() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       name: "VST Power Weeder",
       category: "machines",
       image:
@@ -72,7 +72,7 @@ export function Products() {
       ],
     },
 {
-      id: 5,
+      id: 3,
       name: "Power Reapers",
       category: "machines",
       image:
