@@ -30,7 +30,7 @@ export function Products() {
       name: "VST SHAKTI 130 DI-S Power Tiller",
       category: "machines",
       image:
-        `${import.meta.env.BASE_URL}PowerTiller130DI.png`,
+        `${import.meta.env.BASE_URL}PowerTiller130DIv2.png`,
       description:
         "VST SHAKTI 130 DI-S Power Tiller is a general purpose, Walk Behind type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. ",
       features: [
