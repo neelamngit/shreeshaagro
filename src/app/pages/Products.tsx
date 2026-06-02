@@ -10,13 +10,16 @@ export function Products() {
   const products = [
     {
       id: 1,
-      name: "VST Power Tiller ",
+      name: "VST SHAKTI 165 DI ES Power Tiller ",
       category: "machines",
       image:
         "https://www.vsttractors.com/wp-content/uploads/2025/01/DSC00718.png",
       description:
-        "These power tillers are designed to efficiently operate in both wet and dry fields. Designed for heavy duty operations, VST power tillers are equipped with powerful and reliable engines with robust transmission. ",
+        "VST SHAKTI 165 DI ES Power Tiller with MDR technology is a general purpose, riding type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. VST power tillers are designed to efficiently operate in both wet and dry fields. Designed for heavy duty operations, VST power tillers are equipped with powerful and reliable engines with robust transmission. ",
       features: [
+        "Starting system - Hand Cranking (Manual) & Self start (Electric)",
+        "Wider rotary (750 mm)",
+        "Aerodynamic design & Ergonomic seat",
         "Fuel Efficient",
         "Designed for heavy duty operations",
         "All-terrain Performance",
@@ -24,6 +27,24 @@ export function Products() {
     },
     {
       id: 2,
+      name: "VST SHAKTI 130 DI-S Power Tiller",
+      category: "machines",
+      image:
+        "https://www.vsttractors.com/wp-content/uploads/2025/01/226LD.png",
+      description:
+        "VST SHAKTI 130 DI-S Power Tiller is a general purpose, Walk Behind type power tiller with four stroke, single cylinder, horizontal, over head valve, compression ignition and diesel engine. ",
+      features: [
+        "1 year warranty",
+        "Starting system - Hand Cranking (Manual)",
+        "Light weight",
+        "Easy turning",
+        "High torque",
+        "Fuel Efficient",
+        "Long life engine",
+      ],
+    },
+    {
+      id: 3,
       name: "VST Brush Cutter",
       category: "machines",
       image:
@@ -37,7 +58,7 @@ export function Products() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       name: "VST Power Weeder",
       category: "machines",
       image:
@@ -50,8 +71,22 @@ export function Products() {
         "Ease of operation",
       ],
     },
+{
+      id: 5,
+      name: "Power Reapers",
+      category: "machines",
+      image:
+        "https://www.vsttractors.com/wp-content/uploads/2025/01/16.png",
+      description:
+        " In different stages of farming, harvesting plays a very important role, demanding more labor and cost. The VST Reaper addresses this challenge by assisting farmers in saving both labor and cost. This machine has large and wide tires to balance on different terrains and uneven surfaces. The VST Multi-Crop Reaper is an innovative machine suited for small and marginal farmers growing different crops. This reaper efficiently works in cutting and harvesting various crops like soybean, bengal gram, paddy, wheat, and ragi, etc. ",
+      features: [
+        "Saves labour and cost",
+        "Operates on different terrains and uneven surfaces",
+        
+      ],
+    },
     {
-      id: 4,
+      id: 6,
       name: "Sprayer",
       category: "implements",
       image: `${import.meta.env.BASE_URL}sprayer.png`,
@@ -64,7 +99,7 @@ export function Products() {
       ],
     },
     {
-      id: 5,
+      id: 7,
       name: "Electric Pumps",
       category: "pumps",
       image:
